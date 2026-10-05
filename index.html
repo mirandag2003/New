@@ -1,264 +1,633 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Portfólio</title>
-
-    <link rel="stylesheet" href="style.css">
-    
-
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+  <header>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="/Public/logotipo.jpeg" alt="Bootstrap" width="150"height="100">
+      </a>
+      <ul class="nav justify-content-center">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Inicio</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Link 1</a></li>
+        <li><a class="dropdown-item" href="#">Link 2</a></li>
+        <li><a class="dropdown-item" href="#">Link 3</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Jogos</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Categorias</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Lançamentos</a>
+    </li>
+  </ul>
+<nav class="navbar bg-body-tertiary">
+  <form class="container-fluid justify-content-start">
+    <button class="btn btn-outline-success me-2" type="button">Criar conta</button>
+    <button class="btn btn-sm btn-outline-secondary" type="button">Logar</button>
+  </form>
+</nav>
+</div>
+  
+  
+</nav>
+  </header>
+  <main>
+    <section class = "titulo">
+      
+  <div class="mt-4 p-5 bg-ligth text-white text-center rounded">
+    <h1> Os melhores jogos em um só lugar </h1> 
+    <p>Descubra novos jogos, confira lançamentos e encontre seus próximos favoritos</p> 
 
-    <!-- Cabeçalho -->
-    <header>
-
-        <!-- Navegação -->
-        <nav>
-
-            <h1>Gabriel Miranda</h1>
-
-            <ul>
-
-                <li>
-                    <a href="">Sobre</a>
-                </li>
-
-                <li>
-                    <a href="">Projetos</a>
-                </li>
-
-                <li>
-                    <a href="">Habilidades</a>
-                </li>
-
-                <li>
-                    <a href="">Contato</a>
-                </li>
-
-            </ul>
-
-
-        </nav>
-
-    </header>
-
-    <!-- Conteúdo principal -->
-    <main>
-
-        <!-- Apresentação -->
-<section class="home">
-
-    <div class="imagem">
-        <img src="Imagem.jpeg" alt="Minha foto">
-    </div>
+  <div class="container mt-3">
+  <button type="button" class="btn btn-primary">Explorar Jogos</button>
+  <button type="button" class="btn btn-primary"> Lançamentos </button>
  
-    <div class="texto">
+</div>
+  </div>
+</div>
+    </section>
 
-        <h2>Desenvolvedor Backend</h2>
-
-        <p>
-            Desenvolvedor Web | PHP • Python • JavaScript • MySQL
-            
-            Sou apaixonado por tecnologia e focado em desenvolvimento de software. Tenho conhecimento prático em PHP e Python para o ecossistema back-end, domínio de MySQL para banco de dados e facilidade com a parte de Front-end utilizando JavaScript para dar vida às interfaces. Sou alguém que adora aprender coisas novas e encara cada desafio tecnológico como uma oportunidade de evolução.
-        </p>
-
-    </div>
-
+  <section class = "imagem">
+    <img src="/Public/imagem_inicio.png" class="rounded mx-auto d-block w-75 img-fluid" alt="Cinque Terre"> 
 </section>
+ <section class="py-5">
 
-        <!-- Sobre -->
-        <section class = 'sobre'>
+        <div class="container text-center">
 
-            <h2>Sobre Mim</h2>
+            <p class="text-secondary fw-semibold">
+                Trabalhamos
+            </p>
 
+            <div class="row align-items-center justify-content-center g-4">
 
-                <p>
-                    Acredito que a tecnologia se constrói com técnica, mas se consolida com paciência e equilíbrio. É assim que encaro meus estudos em programação, iniciados há um ano.
-                    Minha jornada profissional passa pela área administrativa e, atualmente, pela equipe de Suporte da QualityCert. Essa vivência me ensinou a ter empatia pelo usuário e facilidade para entender regras de negócio. Sou reconhecido por ser alguém tranquilo e paciente, qualidades que considero fundamentais tanto para encontrar aquele bug difícil no código quanto para manter a sintonia em um time de desenvolvimento. Busco hoje uma oportunidade de introdução no mercado de TI para somar e evoluir.
-                </p>
-
-        </section>
-
-<!-- Habilidades -->
- <section class="habilidades">
-
-    <h2>Habilidades</h2>
-
-    <div class="cards">
-            <div class = "card">
-                <h2>HTML</h2>
-                <p>Estruturação de páginas web utilizando HTML semântico,
-                    criando sites organizados, acessíveis e bem estruturados.
-                </p>
-
-            </div>
-            
-            <div class = "card">
-                <h2>CSS</h2>
-                <p>Estilização de interfaces modernas e responsivas utilizando CSS,
-                    com foco em design limpo, animações e boa experiência visual.
-                </p>
-
-            </div>
-
-            <div class = "card">
-                <h2>JS</h2>
-                <p>Criação de interatividade para páginas web utilizando JavaScript,
-                    desenvolvendo funcionalidades dinâmicas e experiências mais modernas.
-                </p>
-
-            </div>
-            <div class = "card">
-                <h2>Node</h2>
-                <p>Desenvolvimento back-end com Node.js, criando APIs,
-                    servidores e aplicações rápidas utilizando JavaScript no servidor.
-                </p>
-
-            </div>
-             <div class = "card">
-                <h2>PHP</h2>
-                <p>Desenvolvimento de sistemas dinâmicos para web utilizando PHP,
-                    com foco em back-end, integração com banco de dados e criação
-                    de aplicações funcionais e organizadas.
-                </p>
-
-            </div>
-             <div class = "card">
-                <h2>Python</h2>
-                <p>Conhecimento em Python para automação, lógica de programação,
-                    manipulação de dados e desenvolvimento de soluções práticas
-                    e eficientes.
-                </p>
-
-            </div>
-        </section>
-
-<!-- Projetos -->
-<section class="projetos">
-
-    <h2>Projetos</h2>
-
-    <div class="container-projetos">
-
-        <!-- Projeto 1 -->
-        <div class="card-projeto">
-
-            <div class="topo-projeto html">
-                <h3>FICHA</h3>
-            </div>
-
-            <div class="conteudo-projeto">
-
-                <h3>Ficha hospitalar</h3>
-
-                <p>
-                    Desenvolvimento de uma ficha hospitalar para entrada de pacientes com diagnostico
-                    apresentados e dados
-                </p>
-
-                <div class="tags">
-                    <span>HTML</span>
-                    <span>PHP</span>
-                    <span>MySQL</span>
+                <div class="col-6 col-md">
+                   <img src="/Public/xbox.png" alt="Xbox" class="img-fluid" style="max-height: 60px;">
                 </div>
 
-                <a href="https://github.com/mirandag2003/Ficha-de-triagem/tree/049d74cdf7cdf683589d1611f1a4fb445eae12a2/GHVM.PHP" target="_blank">
-                    Ver Projeto →
-                </a>
+                <div class="col-6 col-md">
+                    <img src="/Public/logoplay.png" alt="Play" class="img-fluid" style="max-height: 60px;">
+                </div>
+
+                <div class="col-6 col-md">
+                    <img src="/Public/icon-rockstar.png" alt="Games" class="img-fluid" style="max-height: 60px;">
+                </div>
+
+                <div class="col-6 col-md">
+                   <img src="/Public/icon-nintendo.png" alt="Nintendo" class="img-fluid" style="max-height: 60px;">
+                </div>
+
+                <div class="col-6 col-md">
+                    <img src="/Public/icons8-steam-circled-100.png" alt="Steam" class="img-fluid" style="max-height: 60px;">
+                </div>
 
             </div>
 
         </div>
 
-        <!-- Projeto 2 -->
-        <div class="card-projeto">
+    </section>
 
-            <div class="topo-projeto node">
-                <h3>LOJA</h3>
-            </div>
+        <section class="conteudo">
 
-            <div class="conteudo-projeto">
+        <div class="container">
 
-                <h3>Petshop</h3>
+            <div class="row align-items-center g-5">
 
-                <p>
-                    Sistema de um petshop desenvolvido com entrada e saída de animais com cadastro de clientes e relatorios de gastos
-                </p>
+                <div class="col-lg-6">
 
-                <div class="tags">
-                    <span>Python</span>
-                    <span>Backend</span>
-                    
+                    <h2 class="fw-bold">
+                        Tudo para quem ama games
+                    </h2>
+
+                    <p class="text-secondary">
+                        Nossa loja nasceu com a ideia de reunir em um só lugar tudo o que os gamers procuram. Trabalhamos com jogos, consoles e acessórios para diferentes plataformas, oferecendo variedade para todos os estilos de jogadores.
+                    </p>
+
+                    <div class="d-flex gap-3">
+
+                        <a href="#" class="btn btn-primary">
+                            Try now
+                        </a>
+
+                        <a href="#" class="btn btn-link">
+                            Learn more
+                        </a>
+
+                    </div>
+
                 </div>
-                
 
-                <a href="https://github.com/SISTEMA-PETSHOP/PetShop/tree/735264e9d341bafba9a2a7080e529ff3929cba95/PetShop" target="_blank">
-                    Ver Projeto →
-                </a>
+                <div class="col-lg-6">
+
+                    <img
+                        src="/Public/games.jpg"
+                        class="img-fluid rounded-3"
+                        alt="Feature"
+                    >
+
+                </div>
 
             </div>
 
         </div>
 
+    </section>
+
+      <section class="games">
+
+        <div class="container">
+
+            <div class="row align-items-center g-5">
+
+                <div class="col-lg-6 order-lg-1">
+
+                    <img
+                        src="/Public/games2.jpg"
+                        class="img-fluid rounded-3"
+                        alt="Feature"
+                    >
+
+                </div>
+
+                <div class="col-lg-6 order-lg-2">
+
+                    <h2 class="fw-bold">
+                        Encontre seu próximo jogo
+                    </h2>
+
+                    <p class="text-secondary">
+                        Seja você fã de aventura, ação, corrida, RPG ou esportes, temos opções para diferentes gostos. Explore nosso catálogo e encontre novos títulos para aumentar sua coleção.
+                    </p>
+
+                    <div class="d-flex gap-3">
+
+                        <a href="#" class="btn btn-primary">
+                            Try now
+                        </a>
+
+                        <a href="#" class="btn btn-link">
+                            Learn more
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+      <section class="promo">
+
+        <div class="container text-center">
+
+
+            <h3 class="fw-bold">
+                Encontre o console ideal para você
+            </h3>
+
+            <blockquote class="blockquote mx-auto my-4"
+                style="max-width: 700px;">
+
+                <p>
+                    Trabalhamos com as principais plataformas do mercado para oferecer opções para todos os tipos de jogadores. Confira alguns dos consoles disponíveis em nossa loja e encontre o equipamento ideal para sua experiência.
+                </p>
+
+            </blockquote>
+
+        </div>
+
+    </section>
+
+
+    <section class="cards">
+        <div class="container">
+
+            <div class="row g-4">
+
+                <!-- PERSONAL -->
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="/Public/ps5.webp" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title text-white">Playstation 5 slim</h4>
+      <p class="card-text">Console de nova geração com SSD de 1TB, gráficos em alta resolução e suporte aos principais jogos da plataforma.</p>
+       <h4 class="fw-bold mt-4 text-white">R$ 3.499,90</h4>
+      <a href="#" class="btn btn-primary">Ver produto</a>
     </div>
+  </div>
 
-</section>
 
-        <!-- Contato -->
-        <section>
+                <!-- STARTUP -->
 
-            <h2>Contato</h2>
+<div class="card" style="width:400px">
+    <img class="card-img-top" src="/Public/xbox.jpeg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title text-white">Xbox Series X</h4>
+      <p class="card-text">Alto desempenho, armazenamento rápido e acesso a uma grande biblioteca de jogos.</p>
+       <h4 class="fw-bold mt-4 text-white">R$ 4.299,00</h4>
+      <a href="#" class="btn btn-primary">Ver produto</a>
+    </div>
+  </div>
 
-            <form>
 
-                <label>
-                    Nome
-                </label>
 
-                <input type="text">
+                <!-- ORGANIZATION -->
 
-                <label>
-                    Email
-                </label>
+               <div class="card" style="width:400px">
+    <img class="card-img-top" src="/Public/nintendo2.jpeg" alt="Card image" style="width:80%">
+    <div class="card-body">
+      <h4 class="card-title text-white">Nintendo Switch OLED</h4>
+      <p class="card-text">Console versátil para jogar na TV ou no modo portátil, com tela OLED de 7</p>
+       <h4 class="fw-bold mt-4 text-white">R$ 2.299,90</h4>
+      <a href="#" class="btn btn-primary">Ver produto</a>
+    </div>
+  </div>
 
-                <input type="email">
 
-                <label>
-                    Mensagem
-                </label>
+        </div>
 
-                <textarea></textarea>
+            <!-- ================= CHAMADA PARA AÇÃO ================= -->
 
-                <button type="submit">
-                    Enviar
-                </button>
+        <section class="py-5">
 
-            </form>
+            <div class="container">
+
+                <div class="row align-items-center bg-dark text-white rounded-3 overflow-hidden">
+
+                    <div class="col-lg-6 p-5">
+
+                        <h2 class="fw-bold">
+                            Prepare-se para jogar!
+                        </h2>
+
+                        <p>
+                            Encontre jogos, consoles e acessórios para deixar
+                            sua experiência ainda melhor. Confira nossas ofertas
+                            e encontre o próximo jogo da sua coleção.
+                        </p>
+
+                        <a href="#" class="btn btn-light">
+                            Ver ofertas
+                        </a>
+
+                    </div>
+
+                    <div class="col-lg-6 p-0">
+
+                        <!-- SUGESTÃO DE IMAGEM:
+                             Setup gamer, pessoa jogando ou vários consoles -->
+
+                        <img
+                            src="/Public/img-jogando.avif"
+                            class="img-fluid w-100 h-100 object-fit-cover"
+                            alt="Setup gamer"
+                        >
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </section>
+
+
+        <!-- ================= NOVIDADES ================= -->
+
+        <section class="py-5">
+
+            <div class="container">
+
+                <div class="text-center mb-5">
+
+                    <h2 class="fw-bold">
+                        Novidades do mundo dos games
+                    </h2>
+
+                    <p class="text-secondary">
+                        Confira lançamentos, novidades e informações sobre
+                        seus jogos e plataformas favoritas.
+                    </p>
+
+                </div>
+
+
+                <div class="row g-4">
+
+
+                    <!-- NOTÍCIA 1 -->
+
+                    <div class="col-md-4">
+
+                        <div class="card h-100">
+
+                            <!-- SUGESTÃO:
+                                 Imagem de um lançamento de jogo -->
+
+                            <img
+                                src="/Public/lancamentos.webp"
+                                class="card-img-top"
+                                alt="Lançamentos de jogos"
+                            >
+
+                            <div class="card-body">
+
+                                <small class="text-primary">
+                                    Lançamentos
+                                </small>
+
+                                <h5 class="fw-bold mt-2">
+                                    Confira os próximos lançamentos
+                                </h5>
+
+                                <small class="text-secondary">
+                                    Novidades
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- NOTÍCIA 2 -->
+
+                    <div class="col-md-4">
+
+                        <div class="card h-100">
+
+                            <img
+                                src="/Public/consoles.webp"
+                                class="card-img-top"
+                                alt="Consoles"
+                            >
+
+                            <div class="card-body">
+
+                                <small class="text-primary">
+                                    Consoles
+                                </small>
+
+                                <h5 class="fw-bold mt-2">
+                                    Conheça as principais plataformas
+                                </h5>
+
+                                <small class="text-secondary">
+                                    PlayStation, Xbox e Nintendo
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-md-4">
+
+                        <div class="card h-100">
+
+                            <img
+                                src="/Public/capas.webp"
+                                class="card-img-top"
+                                alt="Gamer jogando"
+                            >
+
+                            <div class="card-body">
+
+                                <small class="text-primary">
+                                    Games
+                                </small>
+
+                                <h5 class="fw-bold mt-2">
+                                    Descubra novos jogos para sua coleção
+                                </h5>
+
+                                <small class="text-secondary">
+                                    Dicas e novidades
+                                </small>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="text-center mt-4">
+
+                    <a href="#" class="btn btn-primary">
+                        Ver todas as novidades
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FOOTER ================= -->
+
+        <footer class="bg-light border-top py-5">
+
+            <div class="container">
+
+                <div class="row g-4">
+
+
+
+                    <div class="col-lg-4">
+
+                        <h4 class="fw-bold">
+                            <span class="text-primary">🎮</span>
+                            Game Store
+                        </h4>
+
+                        <p class="text-secondary">
+                            Sua loja de games, consoles e acessórios.
+                            Encontre tudo o que precisa para aproveitar
+                            ainda mais sua experiência nos games.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="col-6 col-lg-2">
+
+                        <h6 class="fw-bold">
+                            Produtos
+                        </h6>
+
+                        <ul class="list-unstyled">
+
+                            <li>
+                                <a href="#"
+                                   class="text-secondary text-decoration-none">
+                                    Jogos
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#"
+                                   class="text-secondary text-decoration-none">
+                                    Consoles
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#"
+                                   class="text-secondary text-decoration-none">
+                                    Acessórios
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+
+                    <div class="col-6 col-lg-2">
+
+                        <h6 class="fw-bold">
+                            Plataformas
+                        </h6>
+
+                        <ul class="list-unstyled">
+
+                            <li>
+                                <a href="#"
+                                   class="text-secondary text-decoration-none">
+                                    PlayStation
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#"
+                                   class="text-secondary text-decoration-none">
+                                    Xbox
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#"
+                                   class="text-secondary text-decoration-none">
+                                    Nintendo
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#"
+                                   class="text-secondary text-decoration-none">
+                                    PC
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <div class="col-6 col-lg-2">
+
+                        <h6 class="fw-bold">
+                            Loja
+                        </h6>
+
+                        <ul class="list-unstyled">
+
+                            <li>
+                                <a href="#"
+                                   class="text-secondary text-decoration-none">
+                                    Sobre nós
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#"
+                                   class="text-secondary text-decoration-none">
+                                    Contato
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#"
+                                   class="text-secondary text-decoration-none">
+                                    Ofertas
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <div class="col-lg-2">
+
+                        <h6 class="fw-bold text-primary">
+                            Receba novidades
+                        </h6>
+
+                        <p class="text-secondary small">
+                            Receba novidades e ofertas da nossa loja.
+                        </p>
+
+                        <div class="input-group">
+
+                            <input
+                                type="email"
+                                class="form-control"
+                                placeholder="Seu e-mail"
+                            >
+
+                            <button class="btn btn-primary">
+                                Enviar
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <hr class="my-4">
+
+
+                <div class="text-center text-secondary">
+
+                    <small>
+                        © 2026 Game Store · Privacidade · Termos
+                    </small>
+
+                </div>
+
+            </div>
+
+        </footer>
+
 
     </main>
 
-    <!-- Rodapé -->
-    <footer>
-
-        <p>
-            Todos os direitos reservados.
-        </p>
-
-    </footer>
-
-        <div class="modo-container">
-        <button id="modo-btn">🌙</button>
-    </div>
-<script src="new.js"></script>
 
 </body>
 
